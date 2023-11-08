@@ -1,0 +1,24 @@
+{
+  "name": "ariyainfotech/magento2-discountlimit",
+  "description": "Discount Limiter",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Yuvraj Raulji",
+      "email": "info@ariyainfotech.com",
+      "homepage": "https://www.ariyainfotech.com"
+    }
+  ],
+  "license": [
+    "OSL-3.0"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "AriyaInfoTech\\DiscountLimit\\": ""
+    }
+  }
+}
